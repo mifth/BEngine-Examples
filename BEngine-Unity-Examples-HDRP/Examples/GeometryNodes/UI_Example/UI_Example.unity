@@ -1,0 +1,856 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 1481.6191, g: 1835.6934, b: 2430.2617, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &39109509
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 39109511}
+  - component: {fileID: 39109510}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &39109510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 39109509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd4abc0c679ead64a8464b513633bf28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BackgroundMode: 0
+  BlenderParams:
+    BlendFile: {fileID: 919132149155446097, guid: 29d6885533a59c544a35cc63564020b9, type: 3}
+    NodeSystemName: Geometry Nodes
+  Settings:
+    icon:
+      IconSize: 5
+      IconOffset: {x: 0, y: 0, z: 0}
+      IconColor: {r: 1, g: 0.5, b: 0, a: 0.5}
+  Inputs:
+    CurrentParams:
+    - Type: 12
+      Name: Tab 1
+      Identifier: Input_2
+      DefaultBoolValue: 0
+      BoolValue: 0
+      DefaultColorValue: {r: 0, g: 0, b: 0, a: 0}
+      ColorValue: {r: 0, g: 0, b: 0, a: 0}
+      DefaultFloatMinValue: 0
+      DefaultFloatMaxValue: 0
+      DefaultFloatValue: 0
+      FloatValue: 0
+      ImageValue: {fileID: 0}
+      DefaultIntMinValue: 0
+      DefaultIntMaxValue: 0
+      DefaultIntValue: 0
+      IntValue: 0
+      MaterialValue: {fileID: 0}
+      ObjectValue: {fileID: 0}
+      DefaultStringValue: 
+      StringValue: 
+      IsOpenFoldout: 0
+      DefaultVector3Value: {x: 0, y: 0, z: 0}
+      Vector3Value: {x: 0, y: 0, z: 0}
+    - Type: 14
+      Name: 
+      Identifier: Input_3
+      DefaultBoolValue: 0
+      BoolValue: 0
+      DefaultColorValue: {r: 0, g: 0, b: 0, a: 0}
+      ColorValue: {r: 0, g: 0, b: 0, a: 0}
+      DefaultFloatMinValue: 0
+      DefaultFloatMaxValue: 0
+      DefaultFloatValue: 0
+      FloatValue: 0
+      ImageValue: {fileID: 0}
+      DefaultIntMinValue: 0
+      DefaultIntMaxValue: 0
+      DefaultIntValue: 0
+      IntValue: 0
+      MaterialValue: {fileID: 0}
+      ObjectValue: {fileID: 0}
+      DefaultStringValue: 
+      StringValue: 
+      IsOpenFoldout: 0
+      DefaultVector3Value: {x: 0, y: 0, z: 0}
+      Vector3Value: {x: 0, y: 0, z: 0}
+    - Type: 13
+      Name: 
+      Identifier: Input_5
+      DefaultBoolValue: 0
+      BoolValue: 0
+      DefaultColorValue: {r: 0, g: 0, b: 0, a: 0}
+      ColorValue: {r: 0, g: 0, b: 0, a: 0}
+      DefaultFloatMinValue: 0
+      DefaultFloatMaxValue: 0
+      DefaultFloatValue: 0
+      FloatValue: 0
+      ImageValue: {fileID: 0}
+      DefaultIntMinValue: 0
+      DefaultIntMaxValue: 0
+      DefaultIntValue: 0
+      IntValue: 0
+      MaterialValue: {fileID: 0}
+      ObjectValue: {fileID: 0}
+      DefaultStringValue: 
+      StringValue: 
+      IsOpenFoldout: 0
+      DefaultVector3Value: {x: 0, y: 0, z: 0}
+      Vector3Value: {x: 0, y: 0, z: 0}
+    - Type: 15
+      Name: FoldOut 1
+      Identifier: Input_4
+      DefaultBoolValue: 0
+      BoolValue: 0
+      DefaultColorValue: {r: 0, g: 0, b: 0, a: 0}
+      ColorValue: {r: 0, g: 0, b: 0, a: 0}
+      DefaultFloatMinValue: 0
+      DefaultFloatMaxValue: 0
+      DefaultFloatValue: 0
+      FloatValue: 0
+      ImageValue: {fileID: 0}
+      DefaultIntMinValue: 0
+      DefaultIntMaxValue: 0
+      DefaultIntValue: 0
+      IntValue: 0
+      MaterialValue: {fileID: 0}
+      ObjectValue: {fileID: 0}
+      DefaultStringValue: 
+      StringValue: 
+      IsOpenFoldout: 1
+      DefaultVector3Value: {x: 0, y: 0, z: 0}
+      Vector3Value: {x: 0, y: 0, z: 0}
+    - Type: 11
+      Name: MyImage
+      Identifier: Input_7
+      DefaultBoolValue: 0
+      BoolValue: 0
+      DefaultColorValue: {r: 0, g: 0, b: 0, a: 0}
+      ColorValue: {r: 0, g: 0, b: 0, a: 0}
+      DefaultFloatMinValue: 0
+      DefaultFloatMaxValue: 0
+      DefaultFloatValue: 0
+      FloatValue: 0
+      ImageValue: {fileID: 0}
+      DefaultIntMinValue: 0
+      DefaultIntMaxValue: 0
+      DefaultIntValue: 0
+      IntValue: 0
+      MaterialValue: {fileID: 0}
+      ObjectValue: {fileID: 0}
+      DefaultStringValue: 
+      StringValue: 
+      IsOpenFoldout: 0
+      DefaultVector3Value: {x: 0, y: 0, z: 0}
+      Vector3Value: {x: 0, y: 0, z: 0}
+    - Type: 10
+      Name: MyObject
+      Identifier: Input_8
+      DefaultBoolValue: 0
+      BoolValue: 0
+      DefaultColorValue: {r: 0, g: 0, b: 0, a: 0}
+      ColorValue: {r: 0, g: 0, b: 0, a: 0}
+      DefaultFloatMinValue: 0
+      DefaultFloatMaxValue: 0
+      DefaultFloatValue: 0
+      FloatValue: 0
+      ImageValue: {fileID: 0}
+      DefaultIntMinValue: 0
+      DefaultIntMaxValue: 0
+      DefaultIntValue: 0
+      IntValue: 0
+      MaterialValue: {fileID: 0}
+      ObjectValue: {fileID: 43629097}
+      DefaultStringValue: 
+      StringValue: 
+      IsOpenFoldout: 0
+      DefaultVector3Value: {x: 0, y: 0, z: 0}
+      Vector3Value: {x: 0, y: 0, z: 0}
+    - Type: 6
+      Name: MyCollection
+      Identifier: Input_16
+      DefaultBoolValue: 0
+      BoolValue: 0
+      DefaultColorValue: {r: 0, g: 0, b: 0, a: 0}
+      ColorValue: {r: 0, g: 0, b: 0, a: 0}
+      DefaultFloatMinValue: 0
+      DefaultFloatMaxValue: 0
+      DefaultFloatValue: 0
+      FloatValue: 0
+      ImageValue: {fileID: 0}
+      DefaultIntMinValue: 0
+      DefaultIntMaxValue: 0
+      DefaultIntValue: 0
+      IntValue: 0
+      MaterialValue: {fileID: 0}
+      ObjectValue: {fileID: 0}
+      DefaultStringValue: 
+      StringValue: 
+      IsOpenFoldout: 0
+      DefaultVector3Value: {x: 0, y: 0, z: 0}
+      Vector3Value: {x: 0, y: 0, z: 0}
+    - Type: 9
+      Name: MyColor
+      Identifier: Input_9
+      DefaultBoolValue: 0
+      BoolValue: 0
+      DefaultColorValue: {r: 0, g: 0, b: 0, a: 1}
+      ColorValue: {r: 0, g: 0, b: 0, a: 1}
+      DefaultFloatMinValue: 0
+      DefaultFloatMaxValue: 0
+      DefaultFloatValue: 0
+      FloatValue: 0
+      ImageValue: {fileID: 0}
+      DefaultIntMinValue: 0
+      DefaultIntMaxValue: 0
+      DefaultIntValue: 0
+      IntValue: 0
+      MaterialValue: {fileID: 0}
+      ObjectValue: {fileID: 0}
+      DefaultStringValue: 
+      StringValue: 
+      IsOpenFoldout: 0
+      DefaultVector3Value: {x: 0, y: 0, z: 0}
+      Vector3Value: {x: 0, y: 0, z: 0}
+    - Type: 8
+      Name: MyFloat
+      Identifier: Input_10
+      DefaultBoolValue: 0
+      BoolValue: 0
+      DefaultColorValue: {r: 0, g: 0, b: 0, a: 0}
+      ColorValue: {r: 0, g: 0, b: 0, a: 0}
+      DefaultFloatMinValue: -3.4028235e+38
+      DefaultFloatMaxValue: 3.4028235e+38
+      DefaultFloatValue: 0
+      FloatValue: 0
+      ImageValue: {fileID: 0}
+      DefaultIntMinValue: 0
+      DefaultIntMaxValue: 0
+      DefaultIntValue: 0
+      IntValue: 0
+      MaterialValue: {fileID: 0}
+      ObjectValue: {fileID: 0}
+      DefaultStringValue: 
+      StringValue: 
+      IsOpenFoldout: 0
+      DefaultVector3Value: {x: 0, y: 0, z: 0}
+      Vector3Value: {x: 0, y: 0, z: 0}
+    - Type: 4
+      Name: MyInteger
+      Identifier: Input_11
+      DefaultBoolValue: 0
+      BoolValue: 0
+      DefaultColorValue: {r: 0, g: 0, b: 0, a: 0}
+      ColorValue: {r: 0, g: 0, b: 0, a: 0}
+      DefaultFloatMinValue: 0
+      DefaultFloatMaxValue: 0
+      DefaultFloatValue: 0
+      FloatValue: 0
+      ImageValue: {fileID: 0}
+      DefaultIntMinValue: -2147483648
+      DefaultIntMaxValue: 2147483647
+      DefaultIntValue: 0
+      IntValue: 0
+      MaterialValue: {fileID: 0}
+      ObjectValue: {fileID: 0}
+      DefaultStringValue: 
+      StringValue: 
+      IsOpenFoldout: 0
+      DefaultVector3Value: {x: 0, y: 0, z: 0}
+      Vector3Value: {x: 0, y: 0, z: 0}
+    - Type: 3
+      Name: MyVector
+      Identifier: Input_12
+      DefaultBoolValue: 0
+      BoolValue: 0
+      DefaultColorValue: {r: 0, g: 0, b: 0, a: 0}
+      ColorValue: {r: 0, g: 0, b: 0, a: 0}
+      DefaultFloatMinValue: 0
+      DefaultFloatMaxValue: 0
+      DefaultFloatValue: 0
+      FloatValue: 0
+      ImageValue: {fileID: 0}
+      DefaultIntMinValue: 0
+      DefaultIntMaxValue: 0
+      DefaultIntValue: 0
+      IntValue: 0
+      MaterialValue: {fileID: 0}
+      ObjectValue: {fileID: 0}
+      DefaultStringValue: 
+      StringValue: 
+      IsOpenFoldout: 0
+      DefaultVector3Value: {x: 0, y: 0, z: 0}
+      Vector3Value: {x: 0, y: 0, z: 0}
+    - Type: 2
+      Name: MyMaterial
+      Identifier: Input_14
+      DefaultBoolValue: 0
+      BoolValue: 0
+      DefaultColorValue: {r: 0, g: 0, b: 0, a: 0}
+      ColorValue: {r: 0, g: 0, b: 0, a: 0}
+      DefaultFloatMinValue: 0
+      DefaultFloatMaxValue: 0
+      DefaultFloatValue: 0
+      FloatValue: 0
+      ImageValue: {fileID: 0}
+      DefaultIntMinValue: 0
+      DefaultIntMaxValue: 0
+      DefaultIntValue: 0
+      IntValue: 0
+      MaterialValue: {fileID: 0}
+      ObjectValue: {fileID: 0}
+      DefaultStringValue: 
+      StringValue: 
+      IsOpenFoldout: 0
+      DefaultVector3Value: {x: 0, y: 0, z: 0}
+      Vector3Value: {x: 0, y: 0, z: 0}
+    - Type: 1
+      Name: MyBoolean
+      Identifier: Input_15
+      DefaultBoolValue: 0
+      BoolValue: 0
+      DefaultColorValue: {r: 0, g: 0, b: 0, a: 0}
+      ColorValue: {r: 0, g: 0, b: 0, a: 0}
+      DefaultFloatMinValue: 0
+      DefaultFloatMaxValue: 0
+      DefaultFloatValue: 0
+      FloatValue: 0
+      ImageValue: {fileID: 0}
+      DefaultIntMinValue: 0
+      DefaultIntMaxValue: 0
+      DefaultIntValue: 0
+      IntValue: 0
+      MaterialValue: {fileID: 0}
+      ObjectValue: {fileID: 0}
+      DefaultStringValue: 
+      StringValue: 
+      IsOpenFoldout: 0
+      DefaultVector3Value: {x: 0, y: 0, z: 0}
+      Vector3Value: {x: 0, y: 0, z: 0}
+    - Type: 0
+      Name: MyString
+      Identifier: Input_6
+      DefaultBoolValue: 0
+      BoolValue: 0
+      DefaultColorValue: {r: 0, g: 0, b: 0, a: 0}
+      ColorValue: {r: 0, g: 0, b: 0, a: 0}
+      DefaultFloatMinValue: 0
+      DefaultFloatMaxValue: 0
+      DefaultFloatValue: 0
+      FloatValue: 0
+      ImageValue: {fileID: 0}
+      DefaultIntMinValue: 0
+      DefaultIntMaxValue: 0
+      DefaultIntValue: 0
+      IntValue: 0
+      MaterialValue: {fileID: 0}
+      ObjectValue: {fileID: 0}
+      DefaultStringValue: 
+      StringValue: 
+      IsOpenFoldout: 0
+      DefaultVector3Value: {x: 0, y: 0, z: 0}
+      Vector3Value: {x: 0, y: 0, z: 0}
+    - Type: 12
+      Name: Tab 2
+      Identifier: Input_13
+      DefaultBoolValue: 0
+      BoolValue: 0
+      DefaultColorValue: {r: 0, g: 0, b: 0, a: 0}
+      ColorValue: {r: 0, g: 0, b: 0, a: 0}
+      DefaultFloatMinValue: 0
+      DefaultFloatMaxValue: 0
+      DefaultFloatValue: 0
+      FloatValue: 0
+      ImageValue: {fileID: 0}
+      DefaultIntMinValue: 0
+      DefaultIntMaxValue: 0
+      DefaultIntValue: 0
+      IntValue: 0
+      MaterialValue: {fileID: 0}
+      ObjectValue: {fileID: 0}
+      DefaultStringValue: 
+      StringValue: 
+      IsOpenFoldout: 0
+      DefaultVector3Value: {x: 0, y: 0, z: 0}
+      Vector3Value: {x: 0, y: 0, z: 0}
+  Outputs:
+    OutputMaterials: []
+    OutputInstances: []
+  CurrentInputsTab: 0
+  FoldoutInputs: 1
+--- !u!4 &39109511
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 39109509}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 4.44, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &43629097
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 43629098}
+  m_Layer: 0
+  m_Name: XX
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &43629098
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 43629097}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 144.25049, y: 87.582794, z: 29.55217}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2107238747}
+  - {fileID: 849237459}
+  - {fileID: 772361660}
+  - {fileID: 896036593}
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &772361659
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 772361660}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &772361660
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 772361659}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 43629098}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &849237458
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 849237459}
+  - component: {fileID: 849237462}
+  - component: {fileID: 849237461}
+  - component: {fileID: 849237460}
+  m_Layer: 0
+  m_Name: Sphere
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &849237459
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 849237458}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -153.8, y: -90.6, z: -10.46}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 43629098}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &849237460
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 849237458}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &849237461
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 849237458}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 257
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 73c176f402d2c2f4d929aa5da7585d17, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &849237462
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 849237458}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &896036592
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 896036593}
+  - component: {fileID: 896036594}
+  m_Layer: 0
+  m_Name: GameObject (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &896036593
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 896036592}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -13.3, y: 0, z: -20.6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 43629098}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &896036594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 896036592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d004e88c4f8b6248af0224813473647, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurveSettings:
+    CurveStep: 1
+    CurveDataType: 0
+    EndDistMultiplier: 0.02
+    SplineAlpha: 0.5
+  Curves:
+  - CurvePoints:
+    - position: {x: 133.75072, y: 87.582794, z: 37.171448}
+    - position: {x: 123.00928, y: 87.582794, z: 32.217293}
+    - position: {x: 131.41986, y: 87.582794, z: 25.184982}
+    - position: {x: 144.25049, y: 87.582794, z: 30.55217}
+    - position: {x: 144.25049, y: 87.582794, z: 34.55217}
+    CurveSplineSegments: []
+    IsClosed: 1
+  - CurvePoints:
+    - position: {x: 130.95049, y: 87.582794, z: 9.952169}
+    - position: {x: 119.77009, y: 87.582794, z: 16.97098}
+    - position: {x: 107.94875, y: 87.582794, z: 6.680864}
+    - position: {x: 121.70175, y: 87.582794, z: -2.1575482}
+    CurveSplineSegments: []
+    IsClosed: 0
+--- !u!1 &2107238746
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2107238747}
+  - component: {fileID: 2107238750}
+  - component: {fileID: 2107238749}
+  - component: {fileID: 2107238748}
+  m_Layer: 0
+  m_Name: Plane
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2107238747
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107238746}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -153.8, y: -90.6, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 43629098}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &2107238748
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107238746}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &2107238749
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107238746}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 257
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 73c176f402d2c2f4d929aa5da7585d17, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &2107238750
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107238746}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
