@@ -59,7 +59,11 @@ sysinfo.txt
 crashlytics-build.properties
 
 # My
-*.blend1
-*.blend2
-*.blend3
-*.blend4
+*.blend1.meta
+*.blend2.meta
+*.blend3.meta
+*.blend4.meta
+*.blend1.meta
+*.blend2.meta
+*.blend3.meta
+*.blend4.meta
